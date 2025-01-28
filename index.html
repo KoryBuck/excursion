@@ -5,18 +5,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Excursion</title>
     <link rel="stylesheet" href="resources/css/style.css">
+    <style>
+        body {
+            background-color: black;  
+            color: white;             
+            font-family: Arial, sans-serif;  
+            margin: 0;                
+            padding: 0;             
+            overflow-y: scroll;  
+            height: 100vh;        
+        }
+
+        h1, h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        p, p {
+            text-align: center;
+            font-size: 18px;
+        }
+
+        a.cta {
+            color: #00f;  
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        a.cta:hover {
+            text-decoration: underline;
+        }
+
+        
+        p2, p4 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px 0;
+        }
+
+        video {
+            max-width: 100%;  
+            height: auto;
+        }
+
+        img {
+            max-width: 100%;   
+            height: auto;
+            border: 2px solid #fff; 
+        }
+
+        section {
+            padding: 30px 0;
+        }
+    </style>
 </head>
 <body>
-    <h1>Discover hidden places in the world around you</h1>
-<p><a class="cta" href="#">Download Excursion (Coming soon!)</a></p>
-<p2><video controls autoplay muted loop>
-    <source src="resources/videos/excursion.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-</video></p2>
-    <h2>Your personal travel guide</h2>
-<p3>Excursion remembers places you like, and recommends new points of interest around you.</p3>
-<p4>
-    <img src="" alt="Camp Site">
-</p4>
+
+    <section>
+        <h1>Discover hidden places in the world around you</h1>
+        <p><a class="cta" href="#">Download Excursion (Coming soon!)</a></p>
+    </section>
+
+    <section>
+        <p2>
+            <video controls autoplay muted loop>
+                <source src="https://content.codecademy.com/programs/freelance-one/excursion/videos/excursion.mp4?_gl=1*cxd23z*_gcl_aw*R0NMLjE3MzQ0NDk3NzAuRUFJYUlRb2JDaE1JaEtTdTc1Q3ZpZ01WRXlwRUNCMjh2U21ZRUFBWUFpQUFFZ0xiTGZEX0J3RQ..*_gcl_au*MTUzMDQ4NTk5LjE3MzQ0NDk3Njg.*_ga*ODk1NjAxNzQyOC4xNzM0NDQ5NzY3*_ga_3LRZM6TM9L*MTczODA3NjU2NS4yNS4xLjE3MzgwNzk0MDQuNjAuMC4w" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </p2>
+    </section>
+
+    <section>
+        <h2>Your personal travel guide</h2>
+        <p>Excursion remembers places you like, and recommends new points of interest around you.</p>
+    </section>
+
+    <section>
+        <p4>
+            <img src="https://content.codecademy.com/programs/freelance-one/excursion/images/camp.jpg?_gl=1*kii2pj*_gcl_aw*R0NMLjE3MzQ0NDk3NzAuRUFJYUlRb2JDaE1JaEtTdTc1Q3ZpZ01WRXlwRUNCMjh2U21ZRUFBWUFpQUFFZ0xiTGZEX0J3RQ..*_gcl_au*MTUzMDQ4NTk5LjE3MzQ0NDk3Njg.*_ga*ODk1NjAxNzQyOC4xNzM0NDQ5NzY3*_ga_3LRZM6TM9L*MTczODA3NjU2NS4yNS4xLjE3MzgwNzk0MDQuNjAuMC4w" alt="Camp Site">
+        </p4>
+    </section>
 </body>
 </html>
